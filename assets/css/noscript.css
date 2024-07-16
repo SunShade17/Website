@@ -1,0 +1,15 @@
+/*
+	Author: Andy Sun
+	Date: December 5, 2023
+	Formating page for if scripting is turned off/unsupported by browser
+*/
+
+/* Loader */
+
+	body.landing.is-preload:before {
+		display: none;
+	}
+
+	body.landing.is-preload:after {
+		display: none;
+	}
